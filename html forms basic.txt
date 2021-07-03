@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Dark forest</title>
+        <link rel="stylesheet" href="C:\Users\prish\.vscode\.vscode\stylesheet__1.css">
+    </head>
+    <body>
+    <div class="bg_img"></div>
+
+    <div class="bg_text">
+        <form>
+            First Name
+            <br>
+            <input type="text" placeholder="First Name" name="First Name">
+            <br> <br>
+            Last Name
+            <br>
+            <input type="text" placeholder="Last Name" name="Last Name">
+            <br><br>
+            E-Mail
+            <br>
+            <input type="text" placeholder="E-Mail" name="E-Mail">
+            <br> <br>
+            Phone Number
+            <br>
+            <input type="text" placeholder="Phone Number" name="Phone Number">
+            <br><br>
+            Date of Birth
+            <br>
+            <input type="datetime-local" placeholder="Date of Birth" name="Date of Birth">
+            <br><br>
+            Gender
+            <br>
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female
+            <input type="radio" name="Other" value="Other">Other
+            <br> <br>
+            City
+            <br>
+            <input type="text" placeholder="City" name="City">
+            <br><br>
+            state
+            <br>
+            <input type="text" placeholder="state" name="state">
+            <br><br>
+            country
+            <br>
+            <input type="text" placeholder="country" name="country">
+            <br><br>
+            submit
+            <br>
+            <input type="submit">
+        
+        </form>
+    </div>
+    </body>
+</html>

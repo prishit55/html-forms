@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.bg_img {
+    background-image: url(https://images.unsplash.com/photo-1556684119-0c4f88c60d1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.bg_text {
+   
+  color: rgb(29, 26, 26);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
